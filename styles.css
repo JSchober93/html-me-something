@@ -2,7 +2,7 @@
 body {
     width: 100%;
     margin: 0;
-    background-color: 	#876565;
+    background-color: 	#000000;
     font-size: 100%;
 }
 ul {
@@ -13,14 +13,19 @@ header h1{
     text-align: center;
     color: #FFFFFF
 }
-header nav ul{
+.links {
     text-align: center;
-    padding: 0;
-    color: #44FF00 ;
+    padding: 30px;
+    color: #43FF00 ;
 }
-figure {
+article {
+    padding: 40px;
+    align-self: center;
+}
+main figure {
     margin: 0;
-    padding 0;
+    padding-top:  20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 body h2 {
@@ -31,4 +36,45 @@ body h2 {
 main li {
     border-top-style: solid;
     border-color: #B3B3B3;
+}
+
+#PFA1 {
+    color: #CD8714;
+    text-align: center;
+}
+#PFA2 {
+    color: #794A13;
+    text-align: center;
+}
+#PFA3 {
+    color: #FF0006;
+    text-align: center;
+}
+#PFA4 {
+    color: #09D2F2;
+    text-align: center;
+}
+#PFA5 {
+    color: #7F0808;
+    text-align: center;
+}
+#PFA6 {
+    color: #234C0D;
+    text-align: center;
+}
+#PFA7 {
+    color: #85A828;
+    text-align: center;
+}
+#PFA8 {
+    color: #5C935B;
+    text-align: center;
+}
+p {
+     color: #5C605B;
+}
+#footer {
+    color: #11B3E1;  
+    text-align: right;
+    padding-right: 37px;   
 }
